@@ -1,5 +1,5 @@
-const pswrdField = document.querySelector(".form input[type='password']"),
-toggleIcon = document.querySelector(".form .field i");
+const pswrdField = document.querySelector(".form input[type='password']");
+const toggleIcon = document.querySelector(".form .field i");
 
 toggleIcon.onclick = () =>{
   if(pswrdField.type === "password"){
