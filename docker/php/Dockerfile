@@ -14,3 +14,4 @@ RUN apt-get update && apt-get install -y \
     npm \
     && docker-php-ext-install pdo_mysql \
     && a2enmod rewrite
+RUN docker-php-ext-install mysqli
